@@ -1,10 +1,19 @@
 
-Algoritmo MultiplosDeCinco
-    Definir i Como Entero
+Algoritmo SumaDePares
+    Definir n, i, suma Como Entero
 
-    Para i <- 5 Hasta 50 Con Paso 5 Hacer
-        Escribir i
+    suma <- 0
+
+    Escribir "Ingrese un numero:"
+    Leer n
+
+    Para i <- 1 Hasta n Hacer
+        Si i MOD 2 = 0 Entonces
+            suma <- suma + i
+        FinSi
     FinPara
+
+    Escribir "Suma de pares: ", suma
 
 FinAlgoritmo
 
