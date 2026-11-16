@@ -1,1 +1,16 @@
 
+Algoritmo SubsidioTransporte
+    Definir salario, salarioFinal Como Real
+
+    Escribir "Ingrese el salario mensual:"
+    Leer salario
+
+    salarioFinal <- salario
+
+    Si salario < 1500000 Entonces
+        salarioFinal <- salario + 200000
+    FinSi
+
+    Escribir "Salario final: ", salarioFinal
+FinAlgoritmo
+
