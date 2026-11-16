@@ -1,4 +1,5 @@
 Algoritmo ciclofox
 Definir i como entero
-Para i <-1 Hasta 10 con paso 1 Hacer
+Para i <- 50 Hasta 5 con paso -5 Hacer
 Escribir i
+FinAlgoritmo
